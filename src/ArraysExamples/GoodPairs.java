@@ -5,7 +5,6 @@ import java.util.HashMap;
 public class GoodPairs {
     public static void main(String[] args){
         int[] arr={1,2,3,1,1,3};
-        int n=3;
         System.out.println(numIdenticalPairs(arr));
     }
     static int numIdenticalPairs(int[] nums) {
